@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="TMS:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/TMS_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="TMS" />
+          <element id="library" level="application" name="TMS" />
+          <element id="dir-copy" path="$PROJECT_DIR$" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="jstl-1.2" />
+          <element id="library" level="project" name="mysql-connector-java-8.0.19" />
+          <element id="library" level="project" name="mysql-connector-java-8.0.19 (2)" />
+          <element id="library" level="project" name="jstl-1.2 (2)" />
+          <element id="library" level="project" name="mysql-connector-java-8.0.19 (3)" />
+          <element id="library" level="project" name="jstl-1.2 (3)" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="TMS/web/Web" />
+    </root>
+  </artifact>
+</component>
